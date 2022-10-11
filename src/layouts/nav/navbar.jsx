@@ -25,13 +25,22 @@ export default function NavBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Jake's Portfolio
           </Typography>
+
           <Button color="inherit">
-            <Link to="/"><Typography color="white">Home</Typography></Link>
+            <Link to="/"><Typography color="white">About</Typography></Link>
             </Button>
-          <Button color="inherit"><Link to="/about">About</Link></Button>
-          <Button color="inherit"><Link to="/portfolio">Portfolio</Link></Button>
-          <Button color="inherit"><Link to="/resume">Resume</Link></Button>
-          <Button color="inherit"><Link to="/contact">Contact</Link></Button>
+
+          <Button color="inherit">
+            <Link to="/portfolio"><Typography color="white">Portfolio</Typography></Link>
+            </Button>
+
+          <Button color="inherit">
+            <Link to="/resume"><Typography color="white">Resume</Typography></Link>
+            </Button>
+            
+          <Button color="inherit">
+            <Link to="/contact"><Typography color="white">Contact</Typography></Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

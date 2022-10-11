@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from './nav/navbar'
+import Footer from '../../src/components/Footer.jsx'
 
 export default function BaseLayout(props){
     return (
@@ -13,7 +14,7 @@ export default function BaseLayout(props){
 
 
         {/* footer */}
-
+        <Footer/>
 
 
     </main>

@@ -1,0 +1,31 @@
+.projectCards{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgba(126, 59, 233, 0.801);
+    /* background-color: deepskyblue; */
+}
+
+
+.hero{
+    background-image: url("../images/reactbackground.jpg");
+    min-height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardSpacing{
+
+    padding-bottom: 250px;
+}
+p{
+    color: antiquewhite;
+}
+h1, h5{
+    color: antiquewhite;
+}
+
+img{
+    background-color: antiquewhite;
+}
