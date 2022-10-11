@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     border: 10px solid rgba(126, 59, 233, 0.801);
 }
 
@@ -19,4 +20,9 @@ h1, h3, ul, li, a{
     color: antiquewhite;
     text-align: center;
     text-decoration: none;
+}
+
+.list{
+    list-style: none;
+    padding-left: 0;
 }

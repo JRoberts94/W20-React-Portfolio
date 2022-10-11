@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
-// import { validateEmail } from '../../src/utils/validateEmail.js'
+import { validateEmail } from '../../src/utils/validateEmail.js'
 import BaseLayout from "../layouts/BaseLayout";
 import "semantic-ui-css/semantic.min.css";
 import css from "./Contact.module.css";
@@ -36,17 +36,21 @@ import css1 from "./About.module.css";
 // };
 
 
-
-
-
-
-
 export default function Contact() {
     
     const form = useRef();
+    const [email, setEmail] = useState('');
+
     const sendEmail = (e) => {
       e.preventDefault();
-  
+
+      // 
+      const isEmailValid = validateEmail(email);
+
+      if(!isEmailValid){
+        return alert("incorrect email, please try again!");
+      }
+      
       emailjs.sendForm('service_z4w7u7f', 'template_gio5517', form.current, '9OsoxDn8wiD5lJeLU')
         .then((result) => {
             console.log(result.text);
@@ -62,7 +66,7 @@ export default function Contact() {
             <label>Name</label>
             <input type="text" name="user_name" placeholder='Enter Your Name Here' required= 'true' />
             <label>Email</label>
-            <input type="email" name="user_email" placeholder='Enter Your Email' required= 'true' />
+            <input type="email" name="user_email" onInput={(e) => setEmail(e.target.value)} value={email} placeholder='Enter Your Email' required= 'true' />
             <label>Message</label>
             <textarea name="user_message" />
             <input type="submit" value="Send" placeholder='Enter Your Message Here' required= 'true' />

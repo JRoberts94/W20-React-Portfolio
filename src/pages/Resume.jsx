@@ -12,7 +12,7 @@ export default function Resume() {
       <div className={css.resumeCss} >
         <h1>Resume</h1>
         <h3>Some Of My Learnings Include:</h3>
-        <ul className="list">
+        <ul className={css.list} >
           <li>React</li>
           <li>GraphQL/Apollo</li>
           <li>Progressive Web Applications</li>
