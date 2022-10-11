@@ -42,4 +42,4 @@ Email: jake.shaun.roberts1994@gmail.com
 [Deployed Site]()
 
 ## Technology used
-javascript <br> node <br> react <br> MUI library <br> (for a full list checkout the package.json file )
+javascript <br> node <br> react <br> MUI library <br> emailjs-com <br> (for a full list checkout the package.json file )
