@@ -9,7 +9,7 @@
 - [Demo](#demo)
 
 ## Demo
-![screenshot](src\pages\screenshots\w20screenshot.PNG)
+![screenshot](src/pages/screenshots/w20screenshot.PNG)
 
 ## Description
 This is my React Portfolio Project, here you can find information on me and my life, my past Projects, and ways to contact me (including a functioning contact for to send me an email!) and browse my work.
