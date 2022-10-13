@@ -13,7 +13,7 @@
 ![screenshot](src/pages/screenshots/w20screenshot.PNG)
 
 ## Description
-This is my React Portfolio Project, here you can find information on me and my life, my past Projects, and ways to contact me (including a functioning contact for to send me an email!) and browse my work.
+This is my React Portfolio Project, here you can find information on me and my life, my past Projects, and ways to contact me (including a functioning contact form to send me an email!) and browse my work.
 
 ## Installation Instructions
 Start by cloning the repository to your local machine
