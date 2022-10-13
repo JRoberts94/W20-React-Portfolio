@@ -22,6 +22,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:JRoberts94/W20-React-Portfolio.git main:gh-pages
+git push -f git@github.com:JRoberts94/w20-react-portfolio.git main:gh-pages
 
 cd -
